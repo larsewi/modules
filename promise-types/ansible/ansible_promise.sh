@@ -1,11 +1,11 @@
 #!/bin/sh
 # Wrapper choosing the Python interpreter that runs ansible_promise.py.
 #
-# The install-ansible module installs Ansible with `pipx install --global`,
-# which places it in an isolated virtualenv under /opt/pipx/venvs. The system
-# interpreter cannot import Ansible from there, so prefer the virtualenv's
-# interpreter and fall back to /usr/bin/python3 for hosts where Ansible was
-# installed some other way.
+# The [install-ansible](https://build.cfengine.com/modules/install-ansible/)
+# build module installs Ansible with `pipx install --global`, which places it in
+# an isolated virtualenv under /opt/pipx/venvs. The system interpreter cannot
+# import Ansible from there, so prefer the virtualenv's interpreter and fall
+# back to /usr/bin/python3 for hosts where Ansible was installed some other way.
 
 module="$(dirname "$0")/ansible_promise.py"
 

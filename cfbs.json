@@ -75,7 +75,7 @@
             {
               "key": "ifelapsed",
               "type": "string",
-              "label": "ifelapsed",
+              "label": "Ifelapsed",
               "question": "Number of minutes between promise assessments",
               "default": "5"
             }
@@ -430,7 +430,7 @@
             {
               "key": "ifelapsed",
               "type": "string",
-              "label": "ifelapsed",
+              "label": "Ifelapsed",
               "question": "Number of minutes between promise assessments",
               "default": "5"
             }
@@ -473,7 +473,7 @@
             {
               "key": "ifelapsed",
               "type": "string",
-              "label": "ifelapsed",
+              "label": "Ifelapsed",
               "question": "Number of minutes between playbook assessments",
               "default": "5"
             }
@@ -517,7 +517,7 @@
             {
               "key": "ifelapsed",
               "type": "string",
-              "label": "ifelapsed",
+              "label": "Ifelapsed",
               "question": "Number of minutes between playbook assessments",
               "default": "5"
             }
